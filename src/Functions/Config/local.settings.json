@@ -1,8 +1,0 @@
-{
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=newiotfunctionsb456;AccountKey=89j61Gv5PIUUUGaMhwrRpDsJ8dA1K7TrG8aNltfAqvFc7kNXFwB/N6sTjBYKqc/i0Xi1yocp0+Lltm6OZye8ow==",
-        "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=newiotfunctionsb456;AccountKey=89j61Gv5PIUUUGaMhwrRpDsJ8dA1K7TrG8aNltfAqvFc7kNXFwB/N6sTjBYKqc/i0Xi1yocp0+Lltm6OZye8ow==",
-        "IoTEventConnectionString": "Endpoint=sb://ihsuprodamres031dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=1qwC07zlGhchU6H5fgM66TjNj9LzQN357L/pPdO/E1Q="
-    }
-}
