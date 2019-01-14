@@ -1,0 +1,15 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "eventData",
+      "direction": "in",
+      "eventHubName": "iothub-ehub-thingshub-344796-6a7319d1d0",
+      "connection": "IoTEventConnectionString",
+      "consumerGroup": "$Default",
+      "cardinality": "one"
+    }
+  ],
+  "scriptFile": "../bin/ServeUp.dll",
+  "entryPoint": "ServeUp.Functions.ProcessEventsFunction.Run"
+}

@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Azure Functions",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "~/.azurefunctions/bin/Azure.Functions.Cli.dll",
+            "args": [
+                "host", "start"
+            ],
+            "requireExactSource": false,
+            "cwd": "${workspaceRoot}/bin/Debug/netstandard2.0",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Debug unit tests",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "dotnet",
+            "args":[
+                "test", "Tests/Tests.csproj"
+            ],
+            "requireExactSource": false,
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
